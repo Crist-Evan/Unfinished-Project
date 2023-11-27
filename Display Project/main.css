@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  animation-name: header;
+  animation-duration: 1.75s;
+  height: 60px;
+  font-family: sans-serif;
+  text-transform: lowercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  animation-name: navbar;
+  animation-duration: 2s;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 15px 20px rgb(218, 218, 218);
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar {
+  padding: 5px 10px;
+  margin: 5px;
+  width: 15%;
+  text-align: center;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+}
+
+.bar:hover {
+  background-color: rgb(197, 197, 197);
+}
+
+.bar:visited {
+  text-decoration: none;
+}
+
+#select {
+  background-color: black;
+  color: white;
+}
+
+main {
+  height: 1000px;
+}
+
+.main-1 {
+  height: 1000px;
+  width: 50%;
+  float: left;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  display: block;
+  box-shadow: 2px 2px 20px black;
+}
+
+#img1 {
+  opacity: 1;
+  animation-name: intro;
+  animation-duration: 2s;
+  transform: translate(100%, 50%) rotateZ(20deg);
+}
+
+#img2 {
+  opacity: 1;
+  animation-name: intro;
+  animation-duration: 7s;
+  transform: translate(100%, 50%) rotateZ(-20deg);
+}
+
+#img3 {
+  opacity: 1;
+  animation-name: intro;
+  animation-duration: 10s;
+  transform: translate(100%, 50%) rotateZ(20deg);
+}
+
+#img1:hover {
+  height: 260px;
+  width: 260px;
+  box-shadow: 2px 2px 100px rgb(0, 0, 0);
+}
+
+#img2:hover {
+  height: 260px;
+  width: 260px;
+  box-shadow: 2px 2px 100px rgb(0, 0, 0);
+}
+
+#img3:hover {
+  height: 260px;
+  width: 260px;
+  box-shadow: 2px 2px 100px rgb(0, 0, 0);
+}
+
+.main-2 {
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-2 div {
+  background-color: rgb(241, 241, 241);
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px;
+}
+
+p {
+  animation-name: text;
+  animation-duration: 2s;
+  text-align: center;
+  font-size: 20px;
+  padding: 80px;
+  margin: 80px;
+}
+
+footer {
+  animation-name: footer;
+  animation-duration: 2s;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px -15px 20px rgb(218, 218, 218);
+}
+
+@keyframes intro {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes text {
+  from {
+    transform: translateX(50%);
+  }
+}
+
+@keyframes navbar {
+  from {
+    transform: translateY(-310%);
+  }
+}
+
+@keyframes header {
+  from {
+    transform: translateY(-310%);
+  }
+}
+
+@keyframes footer {
+  from {
+    transform: translateY(200%);
+  }
+}
+
+/* page 2 */
+
+.background {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  background-color: rgb(236, 240, 240);
+  border-radius: 10px;
+  height: 80%;
+  width: 80%;
+  box-shadow: 1px 1px 20px gray;
+}
+
+.frame1 {
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame2 {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame2 .picture {
+  width: 450px;
+  margin: 20px 40px;
+}
+
+.frame3 {
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture {
+  height: 150px;
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
+
+.picture:hover {
+  box-shadow: 2px 2px 10px black;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-1000px);
+  }
+}
+
+#box1 {
+  animation: move 1s;
+}
+
+#box2 {
+  animation: move 1.2s;
+}
+
+#box3 {
+  animation: move 1.4s;
+}
+
+#box4 {
+  animation: move 2.2s;
+}
+
+#box5 {
+  animation: move 2.4s;
+}
+
+#box6 {
+  animation: move 1s;
+}
+
+#box7 {
+  animation: move 1.5s;
+}
+
+#box8 {
+  animation: move 2s;
+}

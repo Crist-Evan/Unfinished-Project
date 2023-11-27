@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: url(images/Riot-Sign-In.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo {
+  height: 7rem;
+}
+
+.logo img {
+  padding-left: 1rem;
+  height: 8rem;
+}
+
+.main {
+  height: 37rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .login-form {
+  background-color: rgb(253, 249, 249);
+  text-align: center;
+  height: 35rem;
+  width: 25.5rem;
+}
+
+.main .login-form .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  font-size: 0.7rem;
+}
+
+.main .login-form .inputbox {
+  padding: 7px 0;
+}
+
+.main .login-form .inputbox input::placeholder {
+}
+
+.main .login-form .inputbox input {
+  height: 3rem;
+  width: 18.7rem;
+  background: rgb(236, 236, 236);
+  outline: none;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.main .login-form .btn {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .login-form .btn .btn-down {
+  width: 19rem;
+}
+
+.main .login-form .btn .btn-down #fb {
+  background-color: rgb(0, 119, 255);
+}
+
+.main .login-form .btn .btn-down #fb i {
+  color: aliceblue;
+  transform: scale(1.5);
+}
+
+.main .login-form .btn .btn-down #gg {
+  border: 1px solid rgb(224, 224, 224);
+  background-color: rgb(255, 255, 255);
+}
+
+.main .login-form .btn .btn-down #gg i {
+  color: rgb(0, 0, 0);
+  transform: scale(1.5);
+}
+
+.main .login-form .btn .btn-down #ip {
+  background-color: rgb(17, 17, 17);
+}
+
+.main .login-form .btn .btn-down #ip i {
+  color: aliceblue;
+  transform: scale(1.5);
+}
+
+.main .login-form .btn .btn-down #xb {
+  background-color: rgb(28, 126, 15);
+}
+
+.main .login-form .btn .btn-down #xb i {
+  color: aliceblue;
+  transform: scale(1.5);
+}
+
+.main .login-form .btn .btn-down button {
+  border: none;
+  border-radius: 5px;
+  height: 2rem;
+  width: 4rem;
+  margin: 0 4px;
+}
+
+.main .login-form .check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .login-form .check .check-box {
+  width: 18.7rem;
+  text-align: left;
+}
+
+.main .login-form .check .check-box label {
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgb(80, 80, 80);
+}
+
+.main .login-form .check .check-box label span {
+  padding-left: 10px;
+}
+
+.main .login-form .check .check-box label input {
+  transform: scale(1.5);
+  accent-color: red;
+}
+
+.main .login-form .confirmation {
+  padding: 1.2rem 0 2rem 0;
+}
+
+.main .login-form .confirmation button {
+  background: transparent;
+  border-radius: 25px;
+  border: 2px solid rgb(236, 236, 236);
+  height: 70px;
+  width: 70px;
+}
+
+.main .login-form .confirmation button i {
+  color: rgb(236, 236, 236);
+  transform: scale(2);
+}
+
+.main .login-form .alt {
+  padding: 3px 0;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.main .login-form .alt a {
+  text-decoration: none;
+  color: rgb(80, 80, 80);
+}
+
+.footer {
+  margin-top: 20px;
+  height: 6rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.footer-inner {
+}
+
+.footer .footer-inner .linker {
+  font-size: 13px;
+  color: aliceblue;
+}
+
+.footer .footer-inner .linker button {
+  height: 1.5rem;
+  width: 2.8rem;
+  border: none;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  color: aliceblue;
+}
+
+.footer .footer-inner .copyright {
+  font-size: 10px;
+  color: aliceblue;
+  padding-top: 10px;
+}
